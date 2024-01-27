@@ -49,52 +49,115 @@
 .nav {
   padding-left: 55px;
 }
-.main{
-    background-image: url(./pic/coffee-2242213_1920.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 800px;
+.main {
+  background-image: url(./pic/coffee-2242213_1920.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
 }
- tr{
-    border: 2px solid black;
-  
-   
-}
-table{
+table {
   display: flex;
   justify-content: center;
 }
-.tde{
+.esp {
   position: relative;
-  
 }
-.dives{
-  position: absolute;
-  bottom: 1%;
+.para {
   color: aliceblue;
-  padding: 5px;
- 
- 
-}
-.esphp{
+  position: absolute;
+  top: 31%;
+  padding: 8px;
   display: none;
-
 }
-.tde:hover+ .esphp{
+.ig:hover + .para {
   display: block;
+  transition: 0.8s;
 }
-
-.latte{
+.ig:hover {
+  opacity: 60%;
+}
+.igl {
   position: relative;
 }
-.laone{
-  position: absolute;
-  bottom: 1%;
+.pala {
   color: aliceblue;
-  padding: 5px;
- 
- 
+  position: absolute;
+  top: 31%;
+  padding: 8px;
+  display: none;
 }
-.latte:hover+ .laone{
+.igla:hover + .pala {
   display: block;
+  transition: 0.8s;
+}
+.igla:hover {
+  opacity: 60%;
+}
+.fl {
+  position: relative;
+}
+.flata {
+  color: aliceblue;
+  position: absolute;
+  top: 40%;
+  padding: 8px;
+  display: none;
+}
+.flat:hover + .flata {
+  display: block;
+  transition: 0.8s;
+}
+.flat:hover {
+  opacity: 60%;
+}
+.mo {
+  position: relative;
+}
+.mochap {
+  color: aliceblue;
+  position: absolute;
+  top: 28%;
+  padding: 8px;
+  display: none;
+}
+.mocha:hover + .mochap {
+  display: block;
+  transition: 0.8s;
+}
+.mocha:hover {
+  opacity: 60%;
+}
+.am {
+  position: relative;
+}
+.amp {
+  color: aliceblue;
+  position: absolute;
+  top: 10%;
+  padding: 8px;
+  display: none;
+}
+.amig:hover + .amp {
+  display: block;
+  transition: 0.8s;
+}
+.amig:hover {
+  opacity: 60%;
+}
+.cor{
+  position: relative;
+}
+.corh{
+  color: aliceblue;
+  position: absolute;
+top: 0;
+  padding: 8px;
+  display: none;
+}
+.corg:hover + .corh {
+  display: block;
+  transition: 0.8s;
+}
+.corg:hover {
+  opacity: 60%;
 }
