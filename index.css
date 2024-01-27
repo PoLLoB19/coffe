@@ -144,13 +144,13 @@ table {
 .amig:hover {
   opacity: 60%;
 }
-.cor{
+.cor {
   position: relative;
 }
-.corh{
+.corh {
   color: aliceblue;
   position: absolute;
-top: 0;
+  top: 0;
   padding: 8px;
   display: none;
 }
@@ -160,4 +160,14 @@ top: 0;
 }
 .corg:hover {
   opacity: 60%;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: rgb(114, 20, 40);
+}
+.menu:hover {
+  background-color: aliceblue;
+  color: black;
 }
