@@ -174,41 +174,5 @@ table {
   color: black;
 }
 
-.animation{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 200px;
-  width: 4px; 
-  background: rgb(106,235,247);
-  background: linear-gradient(257deg, rgba(106,235,247,1) 5%, rgba(29,253,32,1) 18%, rgba(216,43,231,1) 30%, rgba(252,176,69,1) 47%, rgba(230,50,47,1) 64%, rgba(60,41,206,1) 77%, rgba(101,171,170,1) 90%);
-  animation-name: ani;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  
-
-}
 
 
-@keyframes ani{
-   
-
-  
-  0%{
-    top: 0%;
-   
-   transition-timing-function: ease;
-    
-  }
-  98%{
-    top: 112%;
-   transition-timing-function: ease;
-    
-  }
-
-100%{
-  display: none;
-}
-  
-
-}
